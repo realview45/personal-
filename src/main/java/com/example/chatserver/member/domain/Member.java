@@ -7,9 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Builder
-//@AllArgsConstructor
-//@NoArgsConstructor
-//@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
 @Entity
 public class Member {
     @Id
